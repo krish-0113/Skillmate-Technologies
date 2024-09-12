@@ -1,0 +1,88 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.contact-col{
+    flex-basis: 48%;
+    color: #666666;
+}
+.contact-col h3{
+    font-weight: 500px;
+    font-size: 28px;
+    
+
+}
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+
+}
+.contact-col ul li img{
+    margin-right: 10px;
+    width: 32px;
+}
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    border: 1px solid rgb(214, 210, 210) ;
+    border-radius: 5px;
+}
+form{
+    padding: 20px 20px;
+    border: 1px solid rgb(141, 138, 138);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.contact-col form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+.submit .btn1{
+    /* color: blue; */
+    color: #ebebe5;
+    background-color: rgb(22, 112, 16);
+    border: 3px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    
+ }
+ .submit{
+    margin-left: 99px;
+ 
+ }
+ .contact-col .toggle-msg{
+    color: green;
+ }
+ /* .contact-col h1{
+    font-weight: 400;
+    color: black;
+ } */
+
+/*  */
+@media(max-width:700px){
+    .contact{
+        display: block;
+
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}

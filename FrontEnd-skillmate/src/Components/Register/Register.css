@@ -1,0 +1,90 @@
+/* Register.css */
+.signUp-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+  }
+  
+  .addUserForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  .addUserForm h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .login {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login p {
+    margin-bottom: 10px;
+  }
+  
+  .login .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .login .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  

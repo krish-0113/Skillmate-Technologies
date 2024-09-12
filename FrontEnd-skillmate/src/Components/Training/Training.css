@@ -1,0 +1,115 @@
+.training-container {
+    
+    margin: 100px auto;
+    display: flex;
+
+    /* align-items: flex-start; Align the items at the start of the container */
+    justify-content: space-between;
+    width: 80%;
+    background-color: white; /* Changed for better contrast */
+    border: 3px solid rgb(236, 234, 234);
+    padding: 20px; /* Added padding for better spacing inside the container */
+}
+
+.card-group .card{
+    background-color: rgb(242, 246, 246);
+    color: blueviolet;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    
+    
+}
+.card-group .card img{
+    width: 60px;
+    height: 60px;
+   
+}
+.card{
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+   
+}
+.card-body a{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(34, 202, 202) ;
+    color: black;
+}
+.card-body h5{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    border: 1px solid rgb(214, 210, 210) ;
+    border-radius: 5px;
+}
+form{
+    /* margin: 50px 60px; */
+    padding: 20px 20px;
+    border: 1px solid rgb(141, 138, 138);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.contact-col form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+/* .contact-col form{
+    
+    width: 50%;
+    height: 100%;
+}
+.submit .btn1{
+    
+    color: #ebebe5;
+    background-color: rgb(22, 112, 16);
+    border: 3px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    
+ }
+ .submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ } */
+ .contact-col .toggle-msg{
+    color: green;
+ }
+ .contact-col h1{
+    font-weight: 400;
+    color: black;
+    text-align: center;
+ }
+
+/*  */
+@media(max-width:700px){
+    .contact{
+        display: block;
+
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}

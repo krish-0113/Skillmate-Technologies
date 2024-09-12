@@ -1,0 +1,145 @@
+/* General nav styles */
+nav {
+    width: 100%;
+    color: white;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background: #007bff;
+}
+
+.logo {
+    width: 180px;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+
+.dark-nav {
+    background: #007bff;
+}
+
+.menu {
+    display: none;
+}
+
+.nav-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-login .btn2 {
+    color: #ebebe5;
+    background-color: rgb(22, 112, 16);
+    border: 3px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.btn-login {
+    margin-left: 30px;
+}
+
+.search-container input[type="search"],
+.search-container button {
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(214, 223, 216);
+    color: black;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-container input[type="search"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-login button {
+    padding: 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(204, 14, 112);
+    color: rgb(16, 15, 15);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-login button:hover {
+    background-color: rgb(175, 108, 56);
+}
+
+/* Ensuring links have no text decoration */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* media query */
+@media (max-width: 1040px) {
+    .logo {
+        width: 140px;
+    }
+
+    nav ul li {
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 1300px) {
+    nav {
+        padding: 15px 0;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(4, 204, 27);
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+        padding-left: 2px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menu {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu {
+        right: -200px;
+    }
+}

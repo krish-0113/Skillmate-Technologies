@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    /* background-color: rgb(153, 144, 131); */
+}
+a{
+    /* color: chartreuse; */
+    /* line-height: 3; */
+    /* cursor: pointer; */
+}
+/* .container{
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+.btn{
+    background-color: transparent;
+    color: rgb(237, 233, 233);
+    padding: 14px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn img{
+    width: 20px;
+    margin-left: 10px;
+}
+/* Base CSS for the container */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    box-sizing: border-box; 
+
+}
+.methodo-className{
+    padding: 0 70px;
+    font-size: 25px;
+    
+     margin: 0 90px;
+     align-items: center;
+    
+}
+
+
+
+/* Medium devices (tablets, 600px and up) */
+@media (min-width: 600px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+/* Extra extra large devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Ensure inner elements respect container padding */
+.container * {
+    box-sizing: border-box;
+}
