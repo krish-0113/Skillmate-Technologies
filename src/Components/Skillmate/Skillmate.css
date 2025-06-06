@@ -1,0 +1,82 @@
+.methodology {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .carousel-container {
+    width: 40%;
+    margin-right: 20px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .methodology-details {
+    width: 55%;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  .section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .line {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+  }
+  
+  @media (max-width: 768px) {
+    .methodology {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .carousel-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .methodology-details {
+      width: 100%;
+    }
+  
+    .section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .line {
+      left: 0;
+    }
+  }
+  

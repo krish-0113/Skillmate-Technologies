@@ -1,0 +1,75 @@
+.enroll-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    margin-top: 100px;
+  }
+  
+  .info-section, .form-section {
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-section h1, .form-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .info-section p, .form-section label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-section label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-section input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pay-button {
+    padding: 14px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .pay-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .qr-code {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .qr-code h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .qr-code img {
+    max-width: 200px;
+    height: auto;
+  }
+  

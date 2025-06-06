@@ -1,0 +1,108 @@
+/* Login.css */
+.signUp-Container {
+    /* position: fixed;
+    right: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(190, 182, 182);
+  }
+  .signUp-Container h3{
+    color: #c84b94;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .addUserForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dddddd;
+  }
+  
+  .addUserForm h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  .input-container .btn{
+    color: white;
+    background-color: #007bff;
+    border-radius: 3px ;
+    padding: 8px 10px;
+  }
+  .login .btn{
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    border-color: #b12075;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .btn-success {
+    background-color: green;
+    color:  #007bff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: rgb(203, 28, 28);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .login {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login p {
+    margin-bottom: 10px;
+  }
+  
+  .login .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .login .btn-primary:hover {
+    background-color: #007bff;
+  }
+  
+  
